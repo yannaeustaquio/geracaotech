@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    height: 300px;
+    background-size: cover;
+    background-image: url("/aula9/SmartSelect_20240919_110351_Samsung\ Notes.jpg");
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    text-align: center;
+    padding: 0 15px;
+}
+
+.comida1{
+    width: 200px;
+    margin-left: 15%;
+    width: 50%;
+    height: 50%;
+    
+}
+
+.conteudo{
+display: flex;
+align-items: center;
+}
+
+
+.nomes{
+    
+    display: flex;
+}
+p{
+    margin: 0%;
+}
+.cidades{
+    height: 120px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+

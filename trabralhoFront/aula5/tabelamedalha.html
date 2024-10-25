@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Medalhas</title>
+    <style>
+        tr th,td{
+            border: solid 2px black;
+        }
+
+        div div h1,p{
+            color: red;
+        }
+        table{
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+    <caption>Tabela de Medalhas Dos Jogos Olímpicos</caption>
+    <colgroup>
+        <col>
+        <col style="width: 200px;">
+        <col style="background-color: rgb(0, 238, 255);">
+    </colgroup>
+    <tr>
+        <th rowspan="2"colspan="2">Equipe</th>
+        <th> <img src="/aula5/imagensTabela/ouro.png" alt=""></th> 
+        <th> <img src="/aula5/imagensTabela/prata.png" alt=""></th>
+        <th><img src="/aula5/imagensTabela/bronze.png" alt=""></th>
+        <th>Total</th>
+    </tr>
+    <tr>
+
+    <tr>
+        <td><img src="/aula5/imagensTabela/noruega.jpg"></td>
+        <td>noruega</td>
+        <td>16</td>
+        <td>8</td>
+        <td>13</td>
+        <td>37</td>
+    </tr>
+    <tr>
+        <td><img src="/aula5/imagensTabela/roc.jpg"></td>
+        <td>ROC</td>
+        <td>6</td>
+        <td>12</td>
+        <td>14</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td><img src="/aula5/imagensTabela/alem.jpg"></td>
+        <td>Alemanha</td>
+        <td>12</td>
+        <td>10</td>
+        <td>5</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td><img src="/aula5/imagensTabela/canada.jpg"></td>
+        <td>Canadá</td>
+        <td>4</td>
+        <td>8</td>
+        <td>14</td>
+        <td>26</td>
+    </tr>
+    <tr>
+        <td><img src="/aula5/imagensTabela/EUA.jpg"></td>
+        <td>Estados Unidos da América</td>
+        <td>8</td>
+        <td>10</td>
+        <td>7</td>
+        <td>25</td>
+    </tr>
+
+    </table>
+    <hr>
+
+   <form>
+<label for="nome">Nome:</label>
+<input type="text" name="nome" id="nome" required>
+<br> <br>
+
+<label for="email">email:</label>
+<input type="text" email="email" id="email" required>
+<br><br>
+
+<label for="senha">senha:</label>
+<input type="password" name="senha" id="senha" required>
+<br><br>
+
+
+<label for="idade">idade:</label>
+<input type="number" name="idade" id="idade" min="0" max="30" required>
+
+<br><br>
+
+<br><br>
+
+        <label for="genero">Gênero: </label>
+        <br>
+
+        <label for="genero">Masculino: </label>
+        <input type="radio" name="genero" id="masculino" value="masculino">
+        <br>
+        <label for="genero">Feminino: </label>
+        <input type="radio" name="genero" id="feminino" value="feminino">
+        <br>
+        <label for="genero">Outro(a): </label>
+        <input type="radio" name="genero" id="outro" value="outro">
+        <br>
+
+
+
+<br><br>
+<label for="Linguagem">Selecione suas linguagens de programação:</label>
+<br>
+<label for="JavaScript">JavaScript</label>
+<input type="checkbox" id="JavaScript" name="Linguagem" value="JavaScript">
+
+<br>
+<label for="py">python</label>
+<input type="checkbox" id="python" name="Linguagem" value="python">
+<br><br>
+
+<br>
+        <label for="texto">Digite seu comentário</label><br>
+        <textarea style="resize: none;" name="texto" id="texto" rows="5" cols="50" maxlength="30"></textarea>
+       <br>
+        <label for="cidade">Cidade Pretendida</label>
+        <select id="cidades" name="cidade">
+            <option value="">-- Selecione uma cidade --</option>
+            <option value="fortaleza">Fortaleza</option>
+            <option value="natal">Natal</option>
+            <option value="joaopessoa">João Pessoa</option>
+        </select>
+
+
+
+<div>
+    <br>
+    <input type="submit"enviar:>
+</div>
+
+
+
+<br><br>
+
+   </form>
+
+</body>
+</html>
